@@ -44,8 +44,6 @@ PODS:
   - Harmony/Harmony-Dropbox (0.1):
     - Roxas
     - SwiftyDropbox (~> 5.0.0)
-  - MelonDSDeltaCore (0.1):
-    - DeltaCore
   - N64DeltaCore (0.1):
     - DeltaCore
     - N64DeltaCore/RSP (= 0.1)
@@ -78,7 +76,6 @@ DEPENDENCIES:
   - GBADeltaCore (from `Cores/GBADeltaCore`)
   - GBCDeltaCore (from `Cores/GBCDeltaCore`)
   - Harmony (from `External/Harmony`)
-  - MelonDSDeltaCore (from `Cores/MelonDSDeltaCore`)
   - N64DeltaCore (from `Cores/N64DeltaCore`)
   - NESDeltaCore (from `Cores/NESDeltaCore`)
   - Roxas (from `External/Roxas`)
@@ -113,8 +110,6 @@ EXTERNAL SOURCES:
     :path: Cores/GBCDeltaCore
   Harmony:
     :path: External/Harmony
-  MelonDSDeltaCore:
-    :path: Cores/MelonDSDeltaCore
   N64DeltaCore:
     :path: Cores/N64DeltaCore
   NESDeltaCore:
@@ -137,7 +132,6 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 1350d40e86a76f7863928d63bcb0b89c84c521c5
   GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
   Harmony: cea514db17c41c22f78f54b17d2135935b5e9b96
-  MelonDSDeltaCore: 3de2a2e2ebcd630a6dd756818b5a26dde7afa726
   N64DeltaCore: 6b0f07f2078193a15d736f153ce701661853fa36
   NESDeltaCore: 41ab438dd78d51d4636aacb7d9a7336ea3d4728c
   Roxas: 1990039f843f5dc284918dc82375feb80020ef62
@@ -148,6 +142,6 @@ SPEC CHECKSUMS:
   SwiftyDropbox: 378b4425a2e8d0cb24c7b0f2e3af72bfbaaf1e73
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: 2f9219b1db18479e650fc2159f58160b4cc13aad
+PODFILE CHECKSUM: aeb4461a9eb7874cdbf5c3d31485f181038f49c0
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.9.3
